@@ -1,0 +1,229 @@
+[2026-10-15T08:46:43.176Z] custom:message - Logger prêt
+[2026-10-15T08:55:31.802Z] server:start - port 3000
+[2026-10-15T08:58:16.484Z] server:start - port 3000
+[2026-10-15T09:01:40.084Z] server:start - port 3000
+[2026-10-15T09:03:13.580Z] server:start - port 3000
+[2026-10-15T09:04:04.089Z] server:start - port 3000
+[2026-10-15T09:04:46.024Z] server:start - port 3000
+[2026-10-15T09:10:36.080Z] server:start - port 3000
+[2026-10-15T09:11:02.010Z] server:start - port 3000
+[2026-10-15T09:11:58.731Z] server:start - port 3000
+[2026-10-15T09:12:02.329Z] auth:attempt - jean@example.com - ::1
+[2026-10-15T09:12:02.329Z] auth:success - jean@example.com - ::1
+[2026-10-15T09:12:06.480Z] auth:attempt - jean@example.com - ::1
+[2026-10-15T09:12:06.480Z] auth:failure - jean@example.com - ::1
+[2026-10-15T09:12:08.347Z] auth:failure - jean@example.com - ::1
+[2026-10-15T09:12:08.347Z] auth:attempt - jean@example.com - ::1
+[2026-10-15T09:37:38.790Z] server:start - port 3000
+[2026-10-15T09:37:42.398Z] auth:attempt - jean@example.com - ::1
+[2026-10-15T09:37:42.398Z] auth:success - jean@example.com - ::1
+[2026-10-15T09:37:44.155Z] action:triggered - action A - ::1
+[2026-10-15T09:37:45.000Z] action:triggered - action A - ::1
+[2026-10-15T09:37:45.379Z] action:triggered - action B - ::1
+[2026-10-15T09:37:45.875Z] action:triggered - action C - ::1
+[2026-10-15T09:37:46.200Z] action:triggered - action C - ::1
+[2026-10-15T09:37:46.444Z] action:triggered - action B - ::1
+[2026-10-15T09:37:46.785Z] action:triggered - action A - ::1
+[2026-10-15T09:37:46.926Z] action:triggered - action A - ::1
+[2026-10-15T09:37:47.231Z] action:triggered - action B - ::1
+[2026-10-15T09:37:47.465Z] action:triggered - action C - ::1
+[2026-10-15T09:37:47.601Z] action:triggered - action C - ::1
+[2026-10-15T09:46:27.197Z] action:triggered - action B - ::1
+[2026-10-15T09:50:51.706Z] action:triggered - action A - ::1
+[2026-10-15T09:50:52.239Z] action:triggered - action B - ::1
+[2026-10-15T09:50:52.765Z] action:triggered - action C - ::1
+[2026-10-15T09:50:53.262Z] action:triggered - action C - ::1
+[2026-10-15T10:12:37.887Z] server:start - port 3000
+[2026-10-15T10:14:08.297Z] server:start - port 3000
+[2026-10-15T10:17:47.866Z] server:start - port 3199
+[2026-10-15T10:18:07.013Z] auth:attempt - jean@example.com - ::1
+[2026-10-15T10:18:07.013Z] auth:failure - jean@example.com - ::1
+[2026-10-15T10:18:07.022Z] auth:attempt - jean@example.com - ::1
+[2026-10-15T10:18:07.022Z] auth:success - jean@example.com - ::1
+[2026-10-15T10:18:07.065Z] action:triggered - action A - ::1
+[2026-10-15T10:18:07.068Z] action:triggered - action B - ::1
+[2026-10-15T10:18:07.083Z] action:triggered - action C - ::1
+[2026-10-15T12:22:41.935Z] auth:failure - jean@example.com - ::1
+[2026-10-15T12:22:41.934Z] auth:attempt - jean@example.com - ::1
+[2026-10-15T12:22:44.476Z] auth:failure - jean@example.com - ::1
+[2026-10-15T12:22:44.476Z] auth:attempt - jean@example.com - ::1
+[2026-10-15T12:22:46.344Z] auth:attempt - jean@example.com - ::1
+[2026-10-15T12:22:46.344Z] auth:failure - jean@example.com - ::1
+[2026-10-15T12:22:50.145Z] auth:attempt - jean@example.com - ::1
+[2026-10-15T12:22:50.146Z] auth:failure - jean@example.com - ::1
+[2026-10-15T12:23:14.060Z] auth:attempt - jean@example.com - ::1
+[2026-10-15T12:23:14.060Z] auth:failure - jean@example.com - ::1
+[2026-10-15T12:23:16.593Z] auth:attempt - jean@example.com - ::1
+[2026-10-15T12:23:16.593Z] auth:failure - jean@example.com - ::1
+[2026-10-15T12:23:18.616Z] auth:failure - jean@example.com - ::1
+[2026-10-15T12:23:18.616Z] auth:attempt - jean@example.com - ::1
+[2026-10-15T12:23:20.914Z] auth:attempt - jean@example.com - ::1
+[2026-10-15T12:23:20.914Z] auth:failure - jean@example.com - ::1
+[2026-10-15T12:23:23.885Z] auth:failure - jean@example.com - ::1
+[2026-10-15T12:23:23.885Z] auth:attempt - jean@example.com - ::1
+[2026-10-15T12:24:25.220Z] server:start - port 3000
+[2026-10-15T12:24:32.307Z] auth:failure - jean@example.com - ::1
+[2026-10-15T12:24:32.307Z] auth:attempt - jean@example.com - ::1
+[2026-10-15T12:24:33.615Z] auth:failure - jean@example.com - ::1
+[2026-10-15T12:24:33.614Z] auth:attempt - jean@example.com - ::1
+[2026-10-15T12:24:34.702Z] auth:attempt - jean@example.com - ::1
+[2026-10-15T12:24:34.702Z] auth:locked - jean@example.com - ::1
+[2026-10-15T12:24:34.702Z] auth:failure - jean@example.com - ::1
+[2026-10-15T12:24:35.756Z] auth:attempt - jean@example.com - ::1
+[2026-10-15T12:24:35.756Z] auth:failure - jean@example.com - ::1
+[2026-10-15T12:24:36.265Z] auth:failure - jean@example.com - ::1
+[2026-10-15T12:24:36.265Z] auth:attempt - jean@example.com - ::1
+[2026-10-15T12:24:36.601Z] auth:failure - jean@example.com - ::1
+[2026-10-15T12:24:36.601Z] auth:attempt - jean@example.com - ::1
+[2026-10-15T12:24:36.738Z] auth:attempt - jean@example.com - ::1
+[2026-10-15T12:24:36.738Z] auth:failure - jean@example.com - ::1
+[2026-10-15T12:24:36.889Z] auth:failure - jean@example.com - ::1
+[2026-10-15T12:24:36.889Z] auth:attempt - jean@example.com - ::1
+[2026-10-15T12:24:37.003Z] auth:attempt - jean@example.com - ::1
+[2026-10-15T12:24:37.003Z] auth:failure - jean@example.com - ::1
+[2026-10-15T12:24:51.119Z] auth:failure - jean@example.com - ::1
+[2026-10-15T12:24:51.119Z] auth:attempt - jean@example.com - ::1
+[2026-10-15T12:24:51.876Z] auth:attempt - jean@example.com - ::1
+[2026-10-15T12:24:51.876Z] auth:failure - jean@example.com - ::1
+[2026-10-15T12:24:52.021Z] auth:failure - jean@example.com - ::1
+[2026-10-15T12:24:52.021Z] auth:attempt - jean@example.com - ::1
+[2026-10-15T12:24:52.177Z] auth:attempt - jean@example.com - ::1
+[2026-10-15T12:24:52.177Z] auth:failure - jean@example.com - ::1
+[2026-10-15T12:24:52.319Z] auth:attempt - jean@example.com - ::1
+[2026-10-15T12:24:52.319Z] auth:failure - jean@example.com - ::1
+[2026-10-15T12:24:52.453Z] auth:failure - jean@example.com - ::1
+[2026-10-15T12:24:52.453Z] auth:attempt - jean@example.com - ::1
+[2026-10-15T12:24:52.630Z] auth:attempt - jean@example.com - ::1
+[2026-10-15T12:24:52.630Z] auth:failure - jean@example.com - ::1
+[2026-10-15T12:24:52.768Z] auth:attempt - jean@example.com - ::1
+[2026-10-15T12:24:52.768Z] auth:failure - jean@example.com - ::1
+[2026-10-15T12:24:52.913Z] auth:failure - jean@example.com - ::1
+[2026-10-15T12:24:52.913Z] auth:attempt - jean@example.com - ::1
+[2026-10-15T12:24:53.065Z] auth:attempt - jean@example.com - ::1
+[2026-10-15T12:24:53.065Z] auth:failure - jean@example.com - ::1
+[2026-10-15T12:24:53.202Z] auth:failure - jean@example.com - ::1
+[2026-10-15T12:24:53.202Z] auth:attempt - jean@example.com - ::1
+[2026-10-15T12:24:53.434Z] auth:failure - jean@example.com - ::1
+[2026-10-15T12:24:53.434Z] auth:attempt - jean@example.com - ::1
+[2026-10-15T12:24:53.663Z] auth:failure - jean@example.com - ::1
+[2026-10-15T12:24:53.663Z] auth:attempt - jean@example.com - ::1
+[2026-10-15T12:24:53.799Z] auth:attempt - jean@example.com - ::1
+[2026-10-15T12:24:53.799Z] auth:failure - jean@example.com - ::1
+[2026-10-15T12:26:07.503Z] server:start - port 3000
+[2026-10-15T12:26:22.322Z] auth:attempt - jean@example.com - ::1
+[2026-10-15T12:26:22.322Z] auth:failure - jean@example.com - ::1
+[2026-10-15T12:26:23.944Z] auth:attempt - jean@example.com - ::1
+[2026-10-15T12:26:23.944Z] auth:failure - jean@example.com - ::1
+[2026-10-15T12:26:24.928Z] auth:failure - jean@example.com - ::1
+[2026-10-15T12:26:24.928Z] auth:attempt - jean@example.com - ::1
+[2026-10-15T12:26:24.928Z] auth:locked - jean@example.com - ::1
+[2026-10-15T12:26:26.270Z] auth:attempt - jean@example.com - ::1
+[2026-10-15T12:26:26.270Z] auth:failure - jean@example.com - ::1
+[2026-10-15T12:26:27.791Z] auth:attempt - jean@example.com - ::1
+[2026-10-15T12:26:27.791Z] auth:failure - jean@example.com - ::1
+[2026-10-15T12:26:30.028Z] auth:failure - jean@example.com - ::1
+[2026-10-15T12:26:30.028Z] auth:attempt - jean@example.com - ::1
+[2026-10-15T12:26:30.463Z] auth:attempt - jean@example.com - ::1
+[2026-10-15T12:26:30.463Z] auth:failure - jean@example.com - ::1
+[2026-10-15T12:26:30.754Z] auth:attempt - jean@example.com - ::1
+[2026-10-15T12:26:30.755Z] auth:failure - jean@example.com - ::1
+[2026-10-15T12:27:02.425Z] server:start - port 3000
+[2026-10-15T12:27:07.388Z] auth:attempt - jean@example.com - ::1
+[2026-10-15T12:27:07.388Z] auth:failure - jean@example.com - ::1
+[2026-10-15T12:27:08.853Z] auth:attempt - jean@example.com - ::1
+[2026-10-15T12:27:08.854Z] auth:failure - jean@example.com - ::1
+[2026-10-15T12:27:09.651Z] auth:locked - jean@example.com - ::1
+[2026-10-15T12:27:09.651Z] auth:failure - jean@example.com - ::1
+[2026-10-15T12:27:09.651Z] auth:attempt - jean@example.com - ::1
+[2026-10-15T12:27:10.353Z] auth:locked - jean@example.com - ::1
+[2026-10-15T12:27:10.353Z] auth:attempt - jean@example.com - ::1
+[2026-10-15T12:27:11.169Z] auth:locked - jean@example.com - ::1
+[2026-10-15T12:27:11.168Z] auth:attempt - jean@example.com - ::1
+[2026-10-15T12:27:11.918Z] auth:locked - jean@example.com - ::1
+[2026-10-15T12:27:11.918Z] auth:attempt - jean@example.com - ::1
+[2026-10-15T12:40:11.642Z] server:start - port 3000
+[2026-10-15T12:40:46.653Z] auth:attempt - julie@example.com - ::1
+[2026-10-15T12:40:46.653Z] auth:failure - julie@example.com - ::1
+[2026-10-15T12:40:53.798Z] auth:attempt - julie@example.com - ::1
+[2026-10-15T12:40:53.798Z] auth:failure - julie@example.com - ::1
+[2026-10-15T12:56:17.522Z] server:start - port 3000
+[2026-10-15T12:56:21.339Z] auth:attempt - jean@example.com - ::1
+[2026-10-15T12:56:21.339Z] auth:success - jean@example.com - ::1
+[2026-10-15T12:56:23.135Z] action:triggered - action D - ::1
+[2026-10-15T12:56:23.270Z] action:triggered - action D - ::1
+[2026-10-15T12:56:23.400Z] action:triggered - action D - ::1
+[2026-10-15T12:56:23.777Z] action:triggered - action C - ::1
+[2026-10-15T12:56:24.055Z] action:triggered - action C - ::1
+[2026-10-15T12:56:24.414Z] action:triggered - action B - ::1
+[2026-10-15T12:56:24.552Z] action:triggered - action B - ::1
+[2026-10-15T12:56:24.693Z] action:triggered - action B - ::1
+[2026-10-15T12:56:24.837Z] action:triggered - action B - ::1
+[2026-10-15T12:56:24.989Z] action:triggered - action B - ::1
+[2026-10-15T12:56:25.362Z] action:triggered - action A - ::1
+[2026-10-15T12:56:25.489Z] action:triggered - action A - ::1
+[2026-10-15T12:56:25.674Z] action:triggered - action A - ::1
+[2026-10-15T13:00:18.569Z] server:start - port 3000
+[2026-10-15T13:00:27.189Z] auth:attempt - jean@example.com - ::1
+[2026-10-15T13:00:27.189Z] auth:success - jean@example.com - ::1
+[2026-10-15T13:00:27.190Z] session:create - jean@example.com - ::1
+[2026-10-15T13:00:30.116Z] action:triggered - action D - ::1
+[2026-10-15T13:00:30.268Z] action:triggered - action D - ::1
+[2026-10-15T13:00:30.636Z] action:triggered - action C - ::1
+[2026-10-15T13:00:30.798Z] action:triggered - action C - ::1
+[2026-10-15T13:00:30.969Z] action:triggered - action C - ::1
+[2026-10-15T13:00:31.232Z] action:triggered - action B - ::1
+[2026-10-15T13:00:31.369Z] action:triggered - action B - ::1
+[2026-10-15T13:00:31.520Z] action:triggered - action B - ::1
+[2026-10-15T13:00:31.641Z] action:triggered - action B - ::1
+[2026-10-15T13:00:31.882Z] action:triggered - action A - ::1
+[2026-10-15T13:00:32.025Z] action:triggered - action A - ::1
+[2026-10-15T13:00:32.173Z] action:triggered - action A - ::1
+[2026-10-15T13:02:07.368Z] server:start - port 3198
+[2026-10-15T13:02:28.673Z] session:invalid - ::1
+[2026-10-15T13:02:28.683Z] auth:success - jean@example.com - ::1
+[2026-10-15T13:02:28.683Z] session:create - jean@example.com - ::1
+[2026-10-15T13:02:28.683Z] auth:attempt - jean@example.com - ::1
+[2026-10-15T13:02:28.703Z] action:triggered - action A - ::1
+[2026-10-15T13:02:28.721Z] session:invalid - ::1
+[2026-10-15T13:03:11.098Z] server:start - port 3198
+[2026-10-15T13:03:37.856Z] session:invalid - ::1
+[2026-10-15T13:03:37.867Z] auth:attempt - jean@example.com - ::1
+[2026-10-15T13:03:37.868Z] session:create - jean@example.com - ::1
+[2026-10-15T13:03:37.867Z] auth:success - jean@example.com - ::1
+[2026-10-15T13:03:37.887Z] action:triggered - action A - jean@example.com - ::1
+[2026-10-15T13:03:37.902Z] action:triggered - action B - jean@example.com - ::1
+[2026-10-15T13:03:37.912Z] action:triggered - action C - jean@example.com - ::1
+[2026-10-15T13:03:37.918Z] action:triggered - action D - jean@example.com - ::1
+[2026-10-15T13:03:37.964Z] session:invalid - ::1
+[2026-10-15T13:03:52.635Z] server:start - port 3000
+[2026-10-15T13:04:04.239Z] auth:attempt - jean@example.com - ::1
+[2026-10-15T13:04:04.239Z] auth:success - jean@example.com - ::1
+[2026-10-15T13:04:04.241Z] session:create - jean@example.com - ::1
+[2026-10-15T13:04:05.964Z] action:triggered - action C - jean@example.com - ::1
+[2026-10-15T13:04:06.087Z] action:triggered - action C - jean@example.com - ::1
+[2026-10-15T13:04:06.615Z] action:triggered - action B - jean@example.com - ::1
+[2026-10-15T13:04:06.743Z] action:triggered - action B - jean@example.com - ::1
+[2026-10-15T13:04:06.905Z] action:triggered - action B - jean@example.com - ::1
+[2026-10-15T13:04:07.109Z] action:triggered - action A - jean@example.com - ::1
+[2026-10-15T13:04:07.246Z] action:triggered - action A - jean@example.com - ::1
+[2026-10-15T13:04:07.394Z] action:triggered - action A - jean@example.com - ::1
+[2026-10-15T13:04:07.579Z] action:triggered - action A - jean@example.com - ::1
+[2026-10-15T13:04:07.890Z] action:triggered - action D - jean@example.com - ::1
+[2026-10-15T13:04:08.094Z] action:triggered - action D - jean@example.com - ::1
+[2026-10-15T13:04:08.233Z] action:triggered - action D - jean@example.com - ::1
+[2026-10-15T13:04:08.463Z] action:triggered - action D - jean@example.com - ::1
+[2026-10-15T13:04:08.867Z] action:triggered - action C - jean@example.com - ::1
+[2026-10-15T13:04:09.185Z] action:triggered - action C - jean@example.com - ::1
+[2026-10-15T13:04:09.394Z] action:triggered - action C - jean@example.com - ::1
+[2026-10-15T13:04:09.651Z] action:triggered - action A - jean@example.com - ::1
+[2026-10-15T13:04:09.778Z] action:triggered - action A - jean@example.com - ::1
+[2026-10-15T13:04:09.958Z] action:triggered - action B - jean@example.com - ::1
+[2026-10-15T13:04:10.257Z] action:triggered - action B - jean@example.com - ::1
+[2026-10-15T13:04:10.408Z] action:triggered - action B - jean@example.com - ::1
+[2026-10-15T13:04:11.103Z] action:triggered - action D - jean@example.com - ::1
+[2026-10-15T13:04:11.246Z] action:triggered - action D - jean@example.com - ::1
+[2026-10-15T14:48:30.751Z] server:start - port 3197
+[2026-10-15T14:48:48.937Z] auth:attempt - jean@example.com - ::1
+[2026-10-15T14:48:48.938Z] auth:success - jean@example.com - ::1
+[2026-10-15T14:48:48.938Z] session:create - jean@example.com - ::1
+[2026-10-15T14:48:48.981Z] session:invalid - ::1

@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dashboard</title>
+</head>
+<body>
+  <nav aria-label="Navigation principale">
+    <a href="/">Accueil</a> |
+    <a href="/login">Login</a> |
+    <a data-session-route="/dashboard">Dashboard</a> |
+    <a data-session-route="/logs">Logs</a> |
+    <a data-session-route="/stats">Statistiques</a>
+  </nav>
+  <h1>Dashboard</h1>
+  <p>Bienvenue !</p>
+
+  <button data-route="/action/a">Action A</button>
+  <button data-route="/action/b">Action B</button>
+  <button data-route="/action/c">Action C</button>
+  <button data-route="/action/d">Action D</button>
+  <button data-route="/stats">Voir les statistiques</button>
+
+  <script>
+    const sessionId = new URLSearchParams(window.location.search).get('session');
+
+    if (!sessionId) {
+      window.location.replace('/login');
+    } else {
+      document.querySelectorAll('[data-session-route]').forEach((link) => {
+        link.href = `${link.dataset.sessionRoute}?session=${encodeURIComponent(sessionId)}`;
+      });
+
+      document.querySelectorAll('[data-route]').forEach((button) => {
+        button.addEventListener('click', () => {
+          const destination = button.dataset.route;
+          window.location.href =
+            `${destination}?session=${encodeURIComponent(sessionId)}`;
+        });
+      });
+    }
+  </script>
+</body>
+</html>

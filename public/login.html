@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <title>Connexion</title>
+  </head>
+  <body>
+    <nav aria-label="Navigation principale">
+      <a href="/">Accueil</a> |
+      <a href="/login">Login</a> |
+      <a href="/dashboard">Dashboard</a> |
+      <a href="/logs">Logs</a> |
+      <a href="/stats">Statistiques</a>
+    </nav>
+    <h1>Connexion</h1>
+    <p id="login-error" role="alert" hidden></p>
+    <form method="POST" action="/login">
+      <label>
+        Email :
+        <input type="email" name="email" required>
+      </label><br><br>
+      <label>
+        Mot de passe :
+        <input type="password" name="password" required>
+      </label><br><br>
+      <button type="submit">Se connecter</button>
+    </form>
+    <script>
+      const error = new URLSearchParams(location.search).get('error');
+      const message = document.querySelector('#login-error');
+      if (error) {
+        message.textContent = error === 'session'
+          ? 'Session absente ou invalide. Veuillez vous reconnecter.'
+          : error === 'locked'
+            ? 'Ce compte est temporairement bloqué.'
+            : 'Identifiants incorrects, veuillez réessayer.';
+        message.hidden = false;
+      }
+    </script>
+  </body>
+</html>
